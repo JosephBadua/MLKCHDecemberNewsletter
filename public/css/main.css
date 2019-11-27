@@ -59,15 +59,35 @@
     height: 100vh !important;
 }
 /*TEAM------------------------------------------------------*/
+.card {
+    background: transparent !important;
+    width: 100% !important;
+}
+.cardR   {
+    width: 80% !important;
+    margin-left: 10%;
+    text-align: center;
+}
 .this {
     height: 20vh;
-    text-align: center;
-    margin-top: 5.5rem;
+    text-align: center !important;
+    margin-top: 5.5rem !important;
+    margin-left: 6.5vh !important;
+}
+.that {
+    position: absolute;
+    top: 80px !important;
+    margin-left: 260px;
+}
+.those {
+    position: absolute;
+    top: 80px !important;
+    margin-left: 655px;
 }
 .circle {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
+    height: 250px !important;
+    width: 250px !important;
+    border-radius: 50% !important;
 }
 .christmas {
     /*background-image: url("/images/christmas.jpg");*/
