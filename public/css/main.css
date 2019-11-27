@@ -65,6 +65,7 @@
     border-radius: 50%;
 }
 .christmas {
+    /*background-image: url("/images/christmas.jpg");*/
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
