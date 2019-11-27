@@ -40,15 +40,46 @@
   100% { opacity: 0.4; transform: translate(150px, 1100px) rotateZ(360deg)}
 }
 /*HEADER -----------------------------------------------------*/
-.rotate {
-    transform: rotate(23deg);
-}
-.header1 {
-    margin-right: 20px;
-    margin-bottom: 400px;
+.header {
+    background-image: url("/images/header.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .tagline {
-    font-size: 3rem !important;
-    font-weight: bold !important;
     color: black !important;
+}
+.background {
+    width: 100%  !important;
+    height: 100vh !important;
+}
+/*TEAM------------------------------------------------------*/
+.this {
+    height: 20vh;
+    text-align: center;
+    margin-top: 5.5rem;
+}
+.circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.christmas {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ball {
+    height: 40vh;
+    background-image: url("/images/kisspng-orange-christmas-ornament-christmas-decoration-christmas-ball-5ab0a1c9d44220.7385845615215251938694.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.input {
+    font-size: 1.5rem;
 }
