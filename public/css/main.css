@@ -46,8 +46,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.textHeader {
+    padding: 0px 400px !important;
+    font-size: 6rem !important;
+}
 .tagline {
     color: black !important;
+    font-size: 4rem !important;
 }
 .background {
     width: 100%  !important;
