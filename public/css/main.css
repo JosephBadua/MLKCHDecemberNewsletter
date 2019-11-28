@@ -61,9 +61,10 @@
 }
 /*TAMMY -------------------------------------------------------*/
 .background1 {
-    background-image: url("/images/back.png");
-    height:100vh !important;
-    background-repeat: repeat;
+    background-image: url("/images/Christmas-background-hd3.png");
+    background-position: center;
+    height:115vh !important;
+    background-repeat: no-repeat;
     border-bottom: 5px solid red;
 }
 .tammy {
