@@ -103,19 +103,20 @@
 }
 .this {
     height: 20vh;
-    text-align: center !important;
-    margin-top: 5.5rem !important;
-    margin-left: 6.5vh !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
 }
 .that {
-    position: absolute;
-    top: 80px !important;
-    margin-left: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .those {
-    position: absolute;
-    top: 80px !important;
-    margin-left: 655px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .circle {
     height: 250px !important;
@@ -130,8 +131,36 @@
     border-bottom: 5px solid red;
 }
 .ball {
-    height: 40vh;
+    height: 42vh;
     background-image: url("/images/kisspng-orange-christmas-ornament-christmas-decoration-christmas-ball-5ab0a1c9d44220.7385845615215251938694.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ballNight {
+    height: 40vh;
+    background-image: url("/images/PNGIX.com_holiday-ornaments-png_5703991.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.frame {
+    height: 40vh;
+    background-image: url("/images/mmm_burned.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rectangle {
+    height: 40vh;
+    background-image: url("/images/topball_burned.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.silver {
+    height: 40vh;
+    background-image: url("/images/cus_burned.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
