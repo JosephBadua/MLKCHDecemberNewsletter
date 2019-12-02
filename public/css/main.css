@@ -283,8 +283,14 @@
     float: left;
     height: 150px;
 }
+.weekday {
+    border: 1px solid black;
+    width: 14%;
+    float: left;
+    height: 75px;
+}
 .dayNumber {
-    height:15%;
+    height:1%;
     width:14%;
     text-align: center;
     padding:0;
@@ -292,5 +298,11 @@
 .dateMessage {
     clear: both;
     text-align: center;
+    font-size: 1rem;
+}
+.weekdayMessage {
+    clear: both;
+    text-align: center;
     font-size: 1.5rem;
 }
+
