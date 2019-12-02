@@ -84,6 +84,11 @@
     font-size: 3.5rem;
 }
 /*TEAM------------------------------------------------------*/
+.card-title {
+    font-size: 3rem !important;
+    font-weight: bold;
+    text-shadow: 1px 1px red;
+}
 .blacktext {
     color: black !important;
 }
@@ -106,7 +111,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 90px;
+    margin-top: 75px;
 }
 .that {
     display: block;
@@ -173,7 +178,9 @@
     font-size: 1.5rem;
 }
 .textCard {
+    font-size: 2rem;
     color: black;
+    line-height: 50px;
 }
 /*CNM -------------------------------------------------------------------------*/
 .angela {
@@ -202,7 +209,6 @@
     list-style-type: square !important;
 }
 .redback {
-    height: 140vh !important;
     background-image: url("/images/logo2.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -221,4 +227,70 @@
 }
 .schoolDescription {
     color: black;
+}
+/*HOWIE --------------------------------------------------------------------*/
+.howieBack {
+    background-image: url("/images/howieBack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom:5px solid red;
+}
+.imgClass {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgClass1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.contain {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.howieText {
+    text-align: center;
+}
+.mainCircle{
+    height: 400px !important;
+    width: 400px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+.howieText {
+    text-shadow: 5px 5px black;
+}
+.howiepic {
+    background: gold;
+    padding: 10px;
+}
+/*SAVE THE DATE --------------------------------------------------------------*/
+.date {
+    background-image: url("/images/save.png");
+    height: 55vh !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom:5px solid red;
+}
+/*CALENDAR ---------------------------------------------------------------------------------*/
+.tableRow {
+    border: 1px solid black;
+    width: 14%;
+    float: left;
+    height: 150px;
+}
+.dayNumber {
+    height:15%;
+    width:14%;
+    text-align: center;
+    padding:0;
+}
+.dateMessage {
+    clear: both;
+    text-align: center;
+    font-size: 1.5rem;
 }
