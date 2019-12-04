@@ -213,10 +213,20 @@
     margin: 0 auto !important;
 }
 .gradient {
-    background-image: linear-gradient(90deg, rgba(250,144,144,1) 0%, rgba(187,49,49,1) 48%, rgba(243,3,3,1) 100%, rgba(222,0,255,1) 100%) !important;
+    background: rgb(141,187,210);
+}
+.headerImage {
+    background-image: url("/images/back-to-school-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:40vh;
 }
 .schoolDescription {
     color: black;
+}
+.putRight {
+    text-align: right;
 }
 /*HOWIE --------------------------------------------------------------------*/
 .howieBack {
@@ -251,6 +261,25 @@
     border-radius: 50% !important;
     object-fit: cover !important;
 }
+.circleSpecial {
+    height: 400px !important;
+    width: 400px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circleChavira {
+    height: 470px !important;
+    width: 350px !important;
+    border-radius: 10%;
+    object-fit: contain !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -65px;
+}
 .howieText {
     text-shadow: 5px 5px black;
 }
@@ -258,12 +287,32 @@
     background: gold;
     padding: 10px;
 }
+.educators {
+    background-image: url("/images/educators\ layout.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom:5px solid red;
+}
+.breastBack {
+    background-image: url("/images/Breasfeeding\ layput.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom:5px solid red;
+}
 /*SAVE THE DATE --------------------------------------------------------------*/
 .date {
     background-image: url("/images/save.png");
     height: 55vh !important;
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom:5px solid red;
+}
+.birthday {
+    background-image: url("/images/December\ birthday.png");
+    height: 110vh !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-bottom:5px solid red;
 }
 /*CALENDAR ---------------------------------------------------------------------------------*/
@@ -295,4 +344,72 @@
     text-align: center;
     font-size: 1.5rem;
 }
-
+.balloon1 {
+    background-image: url(https://i.imgur.com/QJZPw2X.png);
+    width: 180px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    animation: move_y 30s linear forwards, oscil1 6s infinite;
+    margin-top: 20px;
+}
+.balloon2 {
+    background-image: url(https://i.imgur.com/QJZPw2X.png);
+    width: 180px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    animation: move_y 30s linear forwards, oscil1 6s infinite;
+}
+.balloon3 {
+    background-image: url(https://i.imgur.com/QJZPw2X.png);
+    width: 180px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    animation: move_y 30s linear forwards, oscil1 6s infinite;
+    margin-top: 20px;
+}
+  
+  
+  @keyframes move_y {
+    from {
+      bottom: -10%;
+    }
+    to {
+      bottom: 100%;
+    }
+  }
+  
+  @keyframes oscil1 {
+    from {
+      translate: 0 0;
+      transform: rotate(0deg);
+      animation-timing-function: cubic-bezier(0.1, 0.3, 0.3, 1);
+    }
+    25% {
+      translate: 10px 0;
+      transform: rotate(3deg);
+      animation-timing-function: cubic-bezier(0.7, 0.0, 0.9, 0.7);
+    }
+    50% {
+      translate: 0 0;
+      transform: rotate(0deg);
+      animation-timing-function: cubic-bezier(0.1, 0.3, 0.3, 1);
+    }
+    75% {
+      translate: -10px 0;
+      transform: rotate(-3deg);
+      animation-timing-function: cubic-bezier(0.7, 0.0, 0.9, 0.7);
+    }
+    to {
+      translate: 0 0;
+      transform: rotate(0deg);
+    }
+  }
