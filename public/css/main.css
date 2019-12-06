@@ -131,7 +131,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 75px;
 }
 .circle {
     height: 250px !important;
@@ -349,8 +349,6 @@
 .knowText {
     font-size: 3rem !important;
     color: black !important; 
-    font-weight: bold !important;
-    text-shadow: 0.5px 0.5px white !important;
 }
 .know {
     font-size: 7rem;
@@ -454,8 +452,9 @@
 .dateMessage1 {
     clear: both;
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: bold;
+    text-shadow: 1px 1px red;
 }
 .weekdayMessage {
     clear: both;
