@@ -131,7 +131,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 73px;
+    margin-top: 80px;
 }
 .circle {
     height: 250px !important;
@@ -140,7 +140,7 @@
     object-fit: cover !important;
 }
 .meet {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     text-shadow: 1px 1px white;
 }
@@ -451,6 +451,12 @@
     text-align: center;
     font-size: 1rem;
 }
+.dateMessage1 {
+    clear: both;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
 .weekdayMessage {
     clear: both;
     text-align: center;
@@ -480,6 +486,10 @@
 .rac {
     text-shadow: 2px 2px white;
     font-size: 4rem;
+    font-weight: bold;
+}
+.rachelText {
+    font-weight: bold;
 }
 .pets {
     font-size: 7rem;
