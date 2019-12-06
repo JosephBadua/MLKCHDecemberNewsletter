@@ -165,6 +165,7 @@
     background-position: center;
 }
 .frame {
+
     height: 40vh;
     background-image: url("/images/mmm_burned.png");
     background-size: contain;
@@ -202,6 +203,16 @@
     font-size: 3rem;
     font-weight: bold;
     text-shadow: 2px 2px white;
+}
+.name1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+.circleborder {
+    border: 5px solid black;
+    padding: 5px;
+    border-radius: 50%;
 }
 .input {
     font-size: 1.5rem;
@@ -247,6 +258,7 @@
 }
 .scope {
     background-image: url("/images/stethoscope-on-blue-background-with-copy-space-picture-id910733632.jpg");
+    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,6 +277,7 @@
 }
 .gradient {
     background: rgb(141,187,210);
+    border-bottom: 5px solid red;
 }
 .headerImage {
     background-image: url("/images/back-to-school-header.png");
@@ -332,6 +345,26 @@
     margin-right: auto;
     margin-top: -65px;
 }
+
+.knowText {
+    font-size: 3rem !important;
+    color: black !important; 
+    font-weight: bold !important;
+    text-shadow: 0.5px 0.5px white !important;
+}
+.know {
+    font-size: 7rem;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+}
+
+.chavira {
+    color: black !important;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+}
+
 .howieText {
     text-shadow: 5px 5px black;
 }
@@ -389,7 +422,7 @@
 }
 .tableRowEnd {
     border: 1px solid white;
-    width: 72%;
+    width: 56%;
     float: left;
     height: 150px;
 }
@@ -423,22 +456,26 @@
     text-align: center;
     font-size: 1.5rem;
 }
-
+.marginAuto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .feedTop {
     margin-top: 100px;
 }
 
 .feed {
     font-size: 5rem;
-    color: white;
+    color: black;
     text-shadow: 2px 2px red;
     font-weight: bold;
 }
 .feed1 {
-    font-size: 4rem;
-    color: white;
-    text-shadow: 2px 2px black;
-    font-weight: bold;
+    font-size: 5rem;
+    color: black;
+    text-shadow: 2px 2px red;
+    font-weight: bolder;
 }
 .rac {
     text-shadow: 2px 2px white;
@@ -475,7 +512,7 @@
     margin-left: auto;
     margin-right: auto;
     background-size: contain;
-    animation: move_y 30s linear forwards, oscil1 6s infinite;
+    animation: move_y 3s linear forwards, oscil1 3s infinite;
     margin-top: 20px;
 }
 .balloon2 {
@@ -486,7 +523,7 @@
     margin-left: auto;
     margin-right: auto;
     background-size: contain;
-    animation: move_y 30s linear forwards, oscil1 6s infinite;
+    animation: move_y 3s linear forwards, oscil1 3s  infinite;
 }
 .balloon3 {
     background-image: url(https://i.imgur.com/QJZPw2X.png);
@@ -496,7 +533,7 @@
     margin-left: auto;
     margin-right: auto;
     background-size: contain;
-    animation: move_y 30s linear forwards, oscil1 6s infinite;
+    animation: move_y 3s linear forwards, oscil1 3s infinite;
     margin-top: 20px;
 }
   
@@ -527,29 +564,23 @@
     }
     25% {
       translate: 10px 0;
-      transform: rotate(3deg);
+      transform: rotate(45deg);
       animation-timing-function: cubic-bezier(0.7, 0.0, 0.9, 0.7);
     }
     50% {
       translate: 0 0;
-      transform: rotate(0deg);
+      transform: rotate(-45deg);
       animation-timing-function: cubic-bezier(0.1, 0.3, 0.3, 1);
     }
     75% {
       translate: -10px 0;
-      transform: rotate(-3deg);
+      transform: rotate(0deg);
       animation-timing-function: cubic-bezier(0.7, 0.0, 0.9, 0.7);
     }
     to {
       translate: 0 0;
       transform: rotate(0deg);
     }
-  }
-
-
-  body {
-    margin: 0;
-    overflow: hidden;
   }
   
   .wrapper {
