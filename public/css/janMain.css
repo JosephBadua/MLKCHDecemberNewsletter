@@ -135,6 +135,15 @@
   color: black;
   font-weight: bold;
 }
+/*BIRTHDAYS */
+.janBirth {
+  background-image: url("/images/Jan_Bday.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh !important;
+  border-bottom: 5px solid navy;
+}
 /*DEPARTMENT*/
 .department {
   background-image: url("/images/from\ your\ Department\ chair.png");
