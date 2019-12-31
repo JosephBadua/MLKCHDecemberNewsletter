@@ -7,6 +7,15 @@
   height: 100vh !important;
   border-bottom: 5px solid navy;
 }
+/*TAMMY*/
+.tammyJanTitle {
+  font-size: 70px;
+  color: black;
+}
+.tammyJanText {
+  font-size: 40px;
+  color: black;
+}
 /*CHRISTMAS PARTY RECAP*/
 .partyTitle {
   font-size: 80px;
@@ -100,7 +109,32 @@
   height: 77.5vh !important;
   border-bottom: 5px solid navy;
 }
-
+/*DIKIO*/
+.medicalBackground {
+  background-image: url("/images/banner-plus-1024x432.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 110vh !important;
+  border-bottom: 5px solid navy;
+}
+.dikioPicture {
+  height: 750px;
+  width: 700px;
+  border-radius: 30%;
+}
+.dikioTitle {
+  font-size: 100px;
+  color: black;
+  text-shadow: 2px 2px red;
+  font-weight: bold;
+}
+.dikioText {
+  font-size: 30px;
+  line-height: 35px;
+  color: black;
+  font-weight: bold;
+}
 /*DEPARTMENT*/
 .department {
   background-image: url("/images/from\ your\ Department\ chair.png");
@@ -110,13 +144,20 @@
   height: 77.5vh !important;
   border-bottom: 5px solid navy;
 }
+.deptTitle {
+  font-size: 90px;
+  color: black;
+}
+.deptText {
+  font-size: 30px;
+  color: black;
+}
 
 /*PetShoutOut*/
 .petShout {
   background-image: url("/images/dogBack.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh !important;
   border-bottom: 5px solid navy;
 }
 .petTitle {
@@ -124,7 +165,16 @@
   color: black;
   text-shadow: 1px 1px red;
 }
-
+.circleDog {
+  height: 300px;
+  width: 300px;
+  border: 2px solid gold;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.dogText {
+  color: black;
+}
 /*CALENDAR*/
 .calendarBackground {
   background-image: url("/images/januaryBackgroundCalendar.jpg");
@@ -135,7 +185,7 @@
   border-bottom: 5px solid navy;
 }
 .tableRow {
-  border: 1px solid black;
+  border: thick solid black;
   width: 14%;
   float: left;
   height: 150px;
@@ -154,13 +204,20 @@
   font-weight: bold;
   text-shadow: 5px 5px red;
 }
+.monthTitle1 {
+  font-size: 4rem;
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+  text-shadow: 5px 5px red;
+}
 
 .brand-logo {
   font-family: "Acme", sans-serif !important;
 }
 
 .weekday {
-  border: 1px solid black;
+  border: thick solid black;
   width: 14%;
   float: left;
   height: 75px;
@@ -521,3 +578,148 @@
     margin-left: 80%;
   }
 }
+/*FISH /*
+body {
+  background: #6ca3a3;
+}
+
+svg#fish {
+  top: 5em;
+}
+/* Fish Animation */
+svg.fish {
+  overflow: visible;
+}
+
+@-webkit-keyframes swim {
+  0% {
+    margin-left: -235px;
+  }
+  90% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@keyframes swim {
+  0% {
+    margin-left: -235px;
+  }
+  70% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+.fish {
+  width: 235px;
+  height: 104px;
+  margin-left: -235px;
+  position: absolute;
+  animation: swim 20s;
+  -webkit-animation: swim 20s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+}
+
+svg #fish1,
+svg #fish2,
+svg #fish3,
+svg #fish4,
+svg #fish5,
+svg #fish6 {
+  fill: #528484;
+
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+svg #fish2 {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+
+svg #fish3 {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+svg #fish4 {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+
+svg #fish5 {
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+
+svg #fish6 {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+/**/
+@-moz-keyframes bounce {
+  0%,
+  50%,
+  100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@keyframes bounce {
+  0%,
+  50%,
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+
+/*END Fish Animation*/
