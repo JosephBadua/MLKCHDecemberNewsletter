@@ -11,6 +11,8 @@
 .tammyJanTitle {
   font-size: 70px;
   color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px gold;
 }
 .tammyJanText {
   font-size: 40px;
@@ -20,6 +22,7 @@
 .partyTitle {
   font-size: 80px;
   text-shadow: 5px 5px black;
+  font-weight: bold;
 }
 .partyText {
   font-size: 40px;
@@ -78,14 +81,21 @@
 
 /*ARCI*/
 .arciBack {
-  background-image: url("/images/GETTING\ TO\ KNOW\ ARCI...png");
-  background-size: contain;
+  background-image: url("/images/stethoscope-on-blue-background-with-copy-space-picture-id910733632.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 77.5vh !important;
+  height: 100vh !important;
   border-bottom: 5px solid navy;
 }
+.ArciTitle {
+  font-size: 80px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px gold;
+}
 .arciText {
+  text-indent: 50px;
   font-size: 30px;
   font-weight: bold;
   line-height: 38px;
@@ -99,6 +109,7 @@
   border: 2px solid gold;
   margin-left: -60px;
   margin-top: -50px;
+  box-shadow: 5px 5px 2px black;
 }
 /*TAMMY*/
 .tammyBackground {
@@ -115,18 +126,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 110vh !important;
+  height: 120vh !important;
   border-bottom: 5px solid navy;
 }
 .dikioPicture {
   height: 750px;
   width: 700px;
   border-radius: 30%;
+  box-shadow: 5px 5px 2px black;
 }
 .dikioTitle {
   font-size: 100px;
   color: black;
-  text-shadow: 2px 2px red;
+  text-shadow: 2px 2px gold;
   font-weight: bold;
 }
 .dikioText {
@@ -156,6 +168,8 @@
 .deptTitle {
   font-size: 90px;
   color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px gold;
 }
 .deptText {
   font-size: 30px;
@@ -180,7 +194,8 @@
 .petTitle {
   font-size: 120px;
   color: black;
-  text-shadow: 1px 1px red;
+  font-weight: bold;
+  text-shadow: 2px 2px gold;
 }
 .circleDog {
   height: 300px;
