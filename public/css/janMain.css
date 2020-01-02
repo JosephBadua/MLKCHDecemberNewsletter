@@ -328,6 +328,13 @@
   font-weight: bold;
   line-height: 45px;
 }
+.kudosCircle {
+  height: 750px;
+  width: 750px;
+  border: 2px solid gold;
+  border-radius: 50%;
+  margin-top: 200px;
+}
 
 /*FIREWORKS ANIMATION */
 .pyro > .before,
