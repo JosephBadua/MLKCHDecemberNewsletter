@@ -18,11 +18,22 @@
   font-size: 40px;
   color: black;
 }
+/*GINA SOCKS*/
+.ginaSocks {
+}
 /*CHRISTMAS PARTY RECAP*/
 .partyTitle {
   font-size: 80px;
   text-shadow: 5px 5px black;
   font-weight: bold;
+}
+.mainImage {
+  height: 80%;
+  width: 80%;
+}
+.middle {
+  height: 30%;
+  width: 30%;
 }
 .partyText {
   font-size: 40px;
@@ -120,6 +131,20 @@
   height: 77.5vh !important;
   border-bottom: 5px solid navy;
 }
+/*EDUCATOR*/
+.educators {
+  background-image: url("/images/educator\'s\ note.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 110vh !important;
+  border-bottom: 5px solid navy;
+}
+.educatorsText {
+  margin-top: 400px;
+  font-weight: bold;
+
+}
 /*DIKIO*/
 .medicalBackground {
   background-image: url("/images/banner-plus-1024x432.jpg");
@@ -186,8 +211,8 @@
 }
 /*PetShoutOut*/
 .petShout {
-  background-image: url("/images/dogBack.jpg");
-  background-size: cover;
+  background-image: url("/images/Hercules.png");
+  background-size: contain;
   background-position: center;
   border-bottom: 5px solid navy;
 }
