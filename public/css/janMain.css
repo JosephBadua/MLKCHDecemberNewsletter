@@ -9,14 +9,20 @@
 }
 /*TAMMY*/
 .tammyJanTitle {
-  font-size: 70px;
+  font-size: 50px;
   color: black;
   font-weight: bold;
   text-shadow: 1px 1px gold;
 }
 .tammyJanText {
-  font-size: 40px;
+  font-size: 25px;
   color: black;
+}
+.cheers {
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px gold;
 }
 /*GINA SOCKS*/
 .ginaSocks {
@@ -168,8 +174,9 @@
 }
 .educatorsText {
   margin-top: 400px;
+  font-size: 66px;
   font-weight: bold;
-
+  text-align: right;
 }
 /*DIKIO*/
 .medicalBackground {
@@ -255,8 +262,20 @@
   object-fit: cover;
   border-radius: 50%;
 }
+.dogTextTitle {
+  font-size: 80px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px gold;
+}
 .dogText {
   color: black;
+}
+.dogTextEnding {
+  font-size: 80px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px gold;
 }
 /*CALENDAR*/
 .calendarBackground {
