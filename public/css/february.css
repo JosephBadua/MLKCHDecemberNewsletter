@@ -58,6 +58,11 @@
     border: 5px solid black;
     background: palevioletred;
 }
+.tammy-feb-message {
+    color: lightskyblue;
+    text-shadow: 2px 2px firebrick;
+    font-weight: 550;
+}
 .feb-tammy-back {
     position: relative;
     z-index: 1;
