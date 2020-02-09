@@ -94,10 +94,15 @@
     font-size: 5em;
     font-weight: 500;
     width: 70%;
-    border-radius: 0.6em;
-    padding: 0.2em;
+    text-align: center;
     background: pink;
-    border: 5px solid black;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color: lightskyblue;
+    text-shadow: 2px 2px firebrick;
+    font-weight: 550;
+    border: 2px solid black;
+    font-size: 5em;
 }
 .february-midwife-text {
     text-align: center;
@@ -200,9 +205,83 @@
     border: 2px solid black;
     border-radius: 0.5em;
 }
+.dimeTextSub, .dimeTextSubA {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    color: black;
+}
+.dimeTextSubA {
+    text-decoration: underline;
+}
+.march-of-dimes {
+    background: lavender;
+}
+.modLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
 /* Group Achievment */
 .achievement-feb {
     height: 150vh !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background: lime;
+    border-radius: 0.5em;
+}
+.achievement-feb-back {
+    border-top: 5px solid red;
+    background-image: url("/images/february/congratsAll.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 5px solid navy;
+}
+
+/* Cat Feb Back */ 
+.cat-feb-back {
+    border-top: 5px solid red;
+    background-image: url("/images/february/catBack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 5px solid navy;
+}
+.toffeeFeb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background: lime;
+    border-radius: 0.5em;
+}
+.toffeeFebPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75vh;
+    padding: 1em;
+    background: lime;
+    border-radius: 0.5em;
+}
+.toffeeText {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: pink;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color: black;
+    font-weight: 500;
+    font-size: 3em;
+    border: 2px solid black;
 }
 /* Calendar */
 .february-calendar {
