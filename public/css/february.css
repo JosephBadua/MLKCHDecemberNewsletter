@@ -31,7 +31,47 @@
 .february-top-video {
     height: 25vh;
 }
+/* Teresa Midwife */
+.teresa-feb {
+    color: white;
+    text-shadow: 2px 2px red;
+    font-size: 1.2em;
+}
+.february-midwife-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5em;
+    font-weight: 500;
+    width: 70%;
+    border-radius: 0.6em;
+    padding: 0.2em;
+    background: pink;
+    border: 5px solid black;
+}
+.february-midwife-text {
+    text-align: center;
+    background: pink;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color: black;
+    border: 2px solid black;
+} 
+.teresa-midwife-picture {
+    height: 90vh;
+    border-radius: 50%;
+    padding: 0.5em;
+    background: pink;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+.feb-midwife-back {
+    background: linear-gradient(90deg, rgba(9,8,116,1) 0%, rgba(9,8,118,1) 0%, rgba(9,9,121,1) 0%, rgba(2,0,36,1) 0%, rgba(22,5,66,1) 0%, rgba(195,34,212,1) 0%, rgba(223,22,188,1) 9%, rgba(203,41,41,1) 58%, rgba(241,12,36,1) 91%, rgba(215,14,208,1) 100%, rgba(107,51,105,1) 100%, rgba(213,18,222,1) 100%, rgba(115,77,77,1) 100%);
+}
+/* Calendar */
 .february-calendar {
     background-image: url("/images/february/heartsCalendar.jpg");
     background-size: cover;
