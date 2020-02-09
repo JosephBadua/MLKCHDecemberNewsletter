@@ -1,0 +1,58 @@
+.FebruaryHeader {
+    background-image: url('/images/february/Hearts.jpg');
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+}
+.february-header {
+    font-family: 'Ultra', serif;
+    font-size: 5em;
+    color: lightcoral;
+}
+.february-header-larger {
+    background: white;
+    margin: auto;
+    height: 80vh;
+    width: 70%;
+    border-radius: 0.5em;
+    border: 10px solid lightskyblue;
+}
+.february-top-image {
+    height: 20vh;
+    padding: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stretch {
+    width: 100%;
+    height: 25vh;
+}
+.february-top-video {
+    height: 25vh;
+}
+
+.february-calendar {
+    background-image: url("/images/february/heartsCalendar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 5px solid navy;
+}
+.february-next {
+    color: black;
+    font-size: 5em;
+    font-weight: 450;
+    text-shadow: 1px 1px red;
+}
+.february-Title {
+    margin: auto;
+    font-size: 10em;
+    font-weight: 500;
+    color: black;
+    text-shadow: 1px 1px red;
+}
+.march {
+    color: green;
+    font-size: 1.2em;
+}
