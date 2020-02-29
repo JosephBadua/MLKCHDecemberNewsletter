@@ -1,0 +1,119 @@
+.MarchHeader {
+    background-image: url('/images/march/ezgif.com-video-to-gif.gif');
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    border-bottom: 10px solid green;
+}
+.march-header {
+    font-family: 'Ultra', serif;
+    font-size: 5em;
+    color: #41e7e7;
+}
+.March-header-larger {
+    background: rgb(44, 192, 56);
+    margin: auto;
+    height: 80vh;
+    width: 70%;
+    border-radius: 0.5em;
+    border: 10px solid lightskyblue;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.march-top-image {
+    height: 23vh;
+    width: auto;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+    background: greenyellow;
+    border: 2px solid greenyellow;
+}
+/* tammy  */
+.tammy-march-text {
+    font-weight: 550;
+    font-size: 1.8em;
+    padding: 0.4em;
+    border-radius: 0.4em;
+    color: black;
+    border: 5px solid black;
+    background: white;
+}
+.march-tammy-back::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('/images/february/mlkch.jpg') center center no-repeat;
+    background-size: cover;
+    opacity: .4;
+}
+.march-tammy-title {
+    font-size: 8em;
+    color: #41e7e7;
+    text-shadow: 3px 3px rgb(215, 14, 14);
+    font-weight: 600;
+
+}
+.tammy-march {
+    height: 400px;
+    width: 500px;
+    border-radius: 40%;
+    padding: 0.5em;
+    background: yellowgreen;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* calendar */
+.march-calendar {
+    border-top: 5px solid green;
+    background-image: url("/images/march/calendarMarch.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.march-next {
+    color: black;
+    font-size: 5em;
+    font-weight: 450;
+    text-shadow: 1px 1px red;
+}
+.march-next::after {
+    content: url('/images/march/6XZY.gif');
+}
+.march-Title {
+    margin: auto;
+    font-size: 10em;
+    font-weight: 500;
+    color: paleturquoise;
+    text-shadow: 1px 1px black;
+}
+.april {
+    color: paleturquoise;
+    font-size: 1.2em;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+
+/* Pet */
+.dog-march-back {
+    border-top: 5px solid red;
+    background-image: url("/images/march/calendarMarch.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ginaDogMarch {
+    height: 50vh;
+}
+.ginaDogText {
+    text-align: center;
+}

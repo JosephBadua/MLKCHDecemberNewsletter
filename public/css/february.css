@@ -19,6 +19,7 @@
 }
 .february-top-image {
     height: 20vh;
+    width: auto;
     padding: 0.5em;
     display: block;
     margin-left: auto;
