@@ -151,3 +151,32 @@
     color: white;
     background: #51cf81 !important;
 }
+
+/* dan */
+.danPictureMarch {
+    padding: 0.5em;
+    background:  #36c73d;
+    height: 75vh;
+    border: 5px solid black;
+    margin: auto;
+}
+.danTitle {
+    width: 85%;
+}
+.danText {
+    text-align: center;
+    font-weight: 550;
+    font-size: 1.4em;
+    padding: 0.4em;
+    border-radius: 0.4em;
+    color: black;
+    border: 5px solid #00e9ca;
+    background: #36c73d;
+}
+.laborMarch {
+    background-image: url('/images/march/laborBack.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid green;
+    border-top: 5px solid green;
+}
