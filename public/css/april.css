@@ -1,0 +1,299 @@
+.aprilHeader {
+    background-image: url('/images/april/eggs-4991795_1920.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    border-bottom: 10px solid rgb(0, 0, 0);
+}
+.aprilWork {
+    height: 100vh;
+    width: 100%;
+}
+.april-header {
+    font-family: 'Ultra', serif;
+    font-size: 5em;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+
+.April-header-larger {
+    background: rgb(199, 5, 150);
+    margin: auto;
+    height: 85vh;
+    width: 70%;
+    border-radius: 0.5em;
+    border: 10px solid rgb(75, 42, 42);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* tammy  */
+.tammy-march-text {
+    font-weight: 550;
+    font-size: 1.8em;
+    padding: 0.4em;
+    border-radius: 0.4em;
+    color: black;
+    border: 5px solid #00e9ca;
+    background: #36c73d;
+}
+.march-tammy-back::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('/images/february/mlkch.jpg') center center no-repeat;
+    background-size: cover;
+    opacity: .4;
+}
+.march-tammy-title {
+    font-size: 8em;
+    color: #41e7e7;
+    text-shadow: 3px 3px rgb(215, 14, 14);
+    font-weight: 600;
+
+}
+.tammy-march {
+    height: 400px;
+    width: 500px;
+    border-radius: 40%;
+    padding: 0.5em;
+    background: yellowgreen;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Dan Bday */
+
+.danApril {
+    background: lavender;
+    border-top: 10px solid lightcoral;
+}
+
+.danBday {
+    font-size: 8em;
+    color: rgb(89, 180, 233);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    width: 95%;
+    padding: 0.2em;
+    border: 10px solid royalblue;
+    margin: auto;
+    background: violet;
+}
+
+.danBdayPic {
+    width: 100%;
+    height: 100%;
+    border: 10px solid violet;
+}
+
+.danBdayPic2 {
+    height: 100vh;
+    border: 10px solid violet;
+}
+.danBdayText {
+    color: black; 
+    text-align: center;
+}
+
+/* Conference */
+.confTitle {
+    font-size: 8em;
+    color: rgb(252, 255, 250);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    width: 75%;
+    padding: 0.2em;
+    border: 10px solid rgb(255, 0, 0);
+    margin: auto;
+    background: rgb(238, 175, 175);
+}
+.confBack {
+    background: paleturquoise;
+    border-top: 10px solid violet;
+    border-bottom: 10px solid lightgreen;
+}
+
+.conferenceImage {
+    width: 100%;
+    height: 100%;
+    border: 10px solid orange;
+}
+
+.confText {
+    color: black;
+    text-align: center;
+}
+
+/* Class */
+
+.classPicture {
+    width: 100%;
+    height: 100%;
+    margin-top: 3em;
+    border: 10px solid rgb(52, 145, 15);
+}
+
+.classText {
+    color: black;
+    text-align: center;
+}
+
+.confBack1 {
+    background: url("https://moreliaclinic.com/wp-content/uploads/2013/04/808483-free-blue-background.jpg");
+    border-bottom: 8px solid rgb(71, 46, 141);
+}
+
+/* Work */
+.confBack2 {
+    background: url("https://i.pinimg.com/564x/a6/73/e4/a673e44b27c8ec48e0eda2935386061f.jpg");
+    background-size: cover;
+}
+
+.workClinic {
+    width: 100%;
+    height: 100%;
+    border: 10px solid lightcoral;
+}
+
+.workClinicText {
+    color: black;
+    text-align: center;
+}
+
+.workVideo {
+    width: 100%;
+    height: 100%;
+    border: 10px solid lightcoral;
+}
+
+/* Vacation */
+
+.vacationPicture {
+    width: 100%;
+    height: 100%;
+    border: 10px solid lightcoral;
+}
+.hawaiiText {
+    text-align: center;
+}
+
+
+/* calendar */
+.march-calendar {
+    border-top: 5px solid green;
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/8/5/KFx0g1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.april-next {
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    font-weight: bolder;
+    text-shadow: 2px 2px lightcoral;
+}
+
+.march-Title {
+    margin: auto;
+    font-size: 10em;
+    font-weight: 500;
+    color: paleturquoise;
+    text-shadow: 2px 2px lightcoral;
+}
+.april {
+    color: paleturquoise;
+    font-size: 1.2em;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+.marchbday {
+    color: white;
+    background: #51cf81 !important;
+}
+
+/* Pet */
+.pet-april-back {
+    border-top: 5px solid red;
+    background-image: url("https://image.freepik.com/free-vector/chicken-pattern-background_1096-423.jpg");
+    background-position: center;
+}
+.ginaDogMarch {
+    height: 50vh;
+    border: 10px solid lightcoral;
+}
+.ginaDogMarchGif {
+    height: 20vh;
+    margin: auto;
+    margin-top: 8em;
+    border: 10px solid lightcoral;
+}
+.ginaDogMarchVideo {
+    height: 100vh;
+    border: 10px solid lightcoral;
+}
+.ginaDogWord {
+    padding: 0.8em;
+    font-size: 39px;
+    text-align: center;
+    background: white;
+    border: 5px solid lightcoral;
+    color: black;
+}
+.event {
+    height: 100%;
+    width: 100%;
+    border: 5px solid lightcoral;
+}
+.marchSTD {
+    background: paleturquoise;
+    border-top: 3px solid lightcoral;
+}
+.std {
+    width: 60%;
+    font-size: 7em;
+    border: 2px solid black;
+    color: white;
+    background: #51cf81 !important;
+}
+
+/* dan */
+.danPictureMarch {
+    padding: 0.5em;
+    background:  #36c73d;
+    height: 75vh;
+    border: 5px solid black;
+    margin: auto;
+}
+.danTitle {
+    width: 85%;
+}
+.danText {
+    text-align: center;
+    font-weight: 550;
+    font-size: 1.4em;
+    padding: 0.4em;
+    border-radius: 0.4em;
+    color: black;
+    border: 5px solid #00e9ca;
+    background: #36c73d;
+}
+.laborMarch {
+    background-image: url('/images/march/laborBack.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid green;
+    border-top: 5px solid green;
+}

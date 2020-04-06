@@ -18,6 +18,10 @@
     border-radius: 0.5em;
     border: 10px solid lightskyblue;
 }
+.stayHome {
+    border: 10px solid black;
+    height: 35vh;
+}
 .center {
     display: block;
     margin-left: auto;
