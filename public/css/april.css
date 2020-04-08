@@ -1,11 +1,19 @@
 .aprilHeader {
-    background-image: url('/images/april/eggs-4991795_1920.jpg');
+    background-image: url('/images/april/virus.mp4');
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center; 
     border-bottom: 10px solid rgb(0, 0, 0);
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
 .aprilWork {
     height: 100vh;
     width: 100%;
