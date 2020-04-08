@@ -30,6 +30,25 @@
     margin-left: auto;
     margin-right: auto;
 }
+/* Lurvey */
+.april-laborist {
+    background: rgb(93, 136, 192);
+    border-top: 10px solid lightcoral;
+}
+.labor-img-april {
+    height: 70vh;
+    border: 10px solid violet;
+}
+.lurvey-text {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    border: 10px solid rgb(0, 204, 255);
+    margin: auto;
+    background: rgb(133, 133, 214);
+}
 
 /* tammy  */
 .tammy-march-text {
@@ -81,7 +100,7 @@
 
 .danBday {
     font-size: 8em;
-    color: rgb(89, 180, 233);
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px rgb(255, 255, 255);
     font-weight: 600;
     text-align: center;
@@ -98,7 +117,7 @@
     border: 10px solid violet;
 }
 
-.danBdayPic2 {
+.danBdayPic3 {
     height: 100vh;
     border: 10px solid violet;
 }
@@ -110,15 +129,15 @@
 /* Conference */
 .confTitle {
     font-size: 8em;
-    color: rgb(252, 255, 250);
+    color: rgb(255, 255, 255);
     text-shadow: 3px 3px rgb(0, 0, 0);
     font-weight: 600;
     text-align: center;
     width: 75%;
     padding: 0.2em;
-    border: 10px solid rgb(255, 0, 0);
+    border: 10px solid rgb(25, 0, 255);
     margin: auto;
-    background: rgb(238, 175, 175);
+    background: rgb(30, 218, 243);
 }
 .confBack {
     background: paleturquoise;
@@ -127,15 +146,15 @@
 }
 
 .conferenceImage {
-    width: 100%;
-    height: 100%;
-    border: 10px solid orange;
+    height: 70vh;
+    border: 10px solid rgb(112, 218, 135);
 }
 
 .confText {
     color: black;
     text-align: center;
 }
+/* April Labor */
 
 /* Class */
 
@@ -143,7 +162,7 @@
     width: 100%;
     height: 100%;
     margin-top: 3em;
-    border: 10px solid rgb(52, 145, 15);
+    border: 10px solid rgb(24, 34, 172);
 }
 
 .classText {
@@ -163,9 +182,8 @@
 }
 
 .workClinic {
-    width: 100%;
-    height: 100%;
-    border: 10px solid lightcoral;
+    height: 50vh;
+    border: 10px solid cadetblue;
 }
 
 .workClinicText {
@@ -174,22 +192,53 @@
 }
 
 .workVideo {
-    width: 100%;
-    height: 100%;
-    border: 10px solid lightcoral;
+    height: 90vh;
+    border: 10px solid cadetblue;
 }
 
 /* Vacation */
+.hawaiiVacation {
+    border-top: 5px solid green;
+    background-image: url("/images/april/403000.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .vacationPicture {
-    width: 100%;
-    height: 100%;
+    height: 70vh;
     border: 10px solid lightcoral;
 }
 .hawaiiText {
     text-align: center;
+    font-size: 3.2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    border: 10px solid rgb(197, 113, 17);
+    margin: auto;
+    background: rgb(184, 120, 37);
 }
 
+/* fun */
+.fun-april {
+    height: 70vh;
+    border: 10px solid rgb(4, 0, 238);
+}
+
+.april-banner {
+    font-size: 6.5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    padding: 0.2em;
+    border: 10px solid rgb(0, 204, 255);
+    margin: auto;
+    background: rgb(30, 218, 243);
+}
 
 /* calendar */
 .march-calendar {
@@ -230,27 +279,31 @@
     background-image: url("https://image.freepik.com/free-vector/chicken-pattern-background_1096-423.jpg");
     background-position: center;
 }
-.ginaDogMarch {
-    height: 50vh;
+.hen-april {
+    height: 70vh;
     border: 10px solid lightcoral;
 }
-.ginaDogMarchGif {
-    height: 20vh;
-    margin: auto;
-    margin-top: 8em;
-    border: 10px solid lightcoral;
-}
-.ginaDogMarchVideo {
-    height: 100vh;
-    border: 10px solid lightcoral;
-}
-.ginaDogWord {
-    padding: 0.8em;
-    font-size: 39px;
+.aprilPet {
+    font-size: 6em;
+    color: rgb(229, 255, 0);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    font-weight: 600;
     text-align: center;
-    background: white;
-    border: 5px solid lightcoral;
-    color: black;
+    width: 90%;
+    padding:0.3em;
+    border: 10px solid rgb(255, 0, 0);
+    margin: auto;
+    background: rgb(222, 223, 223);
+}
+.chicken-text {
+    font-size: 4.5em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 90%;
+    padding:0.6em;
+    border: 10px solid rgb(255, 0, 0);
+    margin: auto;
+    background: rgb(222, 223, 223);
 }
 .event {
     height: 100%;
