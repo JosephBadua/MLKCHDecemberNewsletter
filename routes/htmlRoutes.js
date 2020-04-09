@@ -9,11 +9,11 @@ module.exports = function(app) {
     app.get("/february", function(req, res) {
         res.render("february");
     });
-//     app.get("/january", function(req, res) {
-//         res.render("january");
-//     });
-//     app.get("/december", function(req, res) {
-//         res.render("index");
-//     });
+    app.get("/january", function(req, res) {
+        res.render("january");
+    });
+    app.get("/december", function(req, res) {
+        res.render("index");
+    });
 };
   
