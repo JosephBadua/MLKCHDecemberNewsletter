@@ -1,7 +1,7 @@
 module.exports = function(app) {
     // Load index page
     app.get("/", function(req, res) {
-        res.render("april");
+        res.render("may");
     });
     app.get("/april", function(req, res) {
         res.render("april");
