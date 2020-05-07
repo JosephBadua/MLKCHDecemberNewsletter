@@ -193,6 +193,12 @@
     font-weight: 550;
 }
 
+.height-poster {
+    height: 110vh;
+    border: 5px solid #d342f0;
+}
+
+
 .dog-may-back {
     background-image: url("/images/may/dog-may-back.jpg");
     background-size: contain;
