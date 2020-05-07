@@ -1,0 +1,348 @@
+.mayHeader {
+    background-image: url('/images/may/may-header.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    border-bottom: 10px solid rgb(0, 0, 0);
+}
+
+.aprilWork {
+    height: 100vh;
+    width: 100%;
+}
+.april-header {
+    font-family: 'Ultra', serif;
+    font-size: 5em;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+.may-header-image {
+    height: 45vh;
+    border-radius: 0.5em;
+    border: 10px solid rgb(214, 59, 193);
+
+}
+.may-header-image-small {
+    height: 25vh;
+    animation:spin 0.5s linear infinite alternate;
+}
+.may-header-image-small-left {
+    height: 25vh;
+    animation:spin2 0.5s linear infinite alternate;
+}
+
+@keyframes spin {
+    from {transform: rotate(40deg)};
+    to  {transform: rotate(-40deg)};
+  }
+
+  @keyframes spin2 {
+    from {transform: rotate(-40deg)};
+    to  {transform: rotate(40deg)};
+  }
+.may-header-larger {
+    background: rgb(223, 158, 201);
+    margin: auto;
+    height: 85vh;
+    width: 70%;
+    border-radius: 0.5em;
+    border: 10px solid rgb(214, 59, 193);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.may-cooking {
+    background-image: url('/images/may/cooking-back.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    border-bottom: 10px solid rgb(0, 0, 0);
+}
+
+.may-cooking-title {
+    background: rgb(218, 98, 43);
+    color: black;
+    border-radius: 0.5em;
+    padding: 20px;
+    font-size: 8em;
+    font-weight: 550;
+}
+
+.cooking {
+    height: 100vh;
+    border-radius: 0.5em;
+    border: 10px solid white;
+
+}
+
+/* tammy  */
+.tammy-may-text {
+    font-weight: 550;
+    font-size: 2em;
+    padding: 0.4em;
+    border-radius: 0.4em;
+    color: black;
+    border: 5px solid #d342f0;
+    background: #f374ff;
+}
+.tammy-may {
+    height: 45vh;
+    border-radius: 50%;
+    border: 5px solid #d342f0;
+
+}
+.heart {
+    height: 40vh;
+}
+.tammy-may-dog {
+    height: 75vh;
+    border-radius: 80%;
+    border: 5px solid #d342f0;
+
+}
+.may-tammy-back::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('/images/february/mlkch.jpg') center center no-repeat;
+    background-size: cover;
+    opacity: .4;
+}
+.may-tammy-title {
+    font-size: 10em;
+    color: #ffffff;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    font-weight: 600;
+
+}
+.tammy-march {
+    height: 400px;
+    width: 500px;
+    border-radius: 40%;
+    padding: 0.5em;
+    background: yellowgreen;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tammy-may-end {
+    font-size: 8em; 
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+
+/* Conference */
+.confTitle {
+    font-size: 8em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    width: 75%;
+    padding: 0.2em;
+    border: 10px solid rgb(25, 0, 255);
+    margin: auto;
+    background: rgb(30, 218, 243);
+}
+.confBack {
+    background: paleturquoise;
+    border-top: 10px solid violet;
+    border-bottom: 10px solid lightgreen;
+}
+
+.conferenceImage {
+    height: 70vh;
+    border: 10px solid rgb(112, 218, 135);
+}
+
+.confText {
+    color: black;
+    text-align: center;
+}
+/* April Labor */
+.blue-may {
+    background-image: url('/images/may/blue.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    border-bottom: 10px solid rgb(0, 0, 0);
+
+}
+
+.hand-wash {
+    text-align: center;
+    background: rgb(119, 117, 231);
+    color: white;
+    border: 5px solid black;
+    border-radius: 0.1em;
+    padding: 20px;
+    font-size: 6em;
+    font-weight: 550;
+}
+
+.dog-may-back {
+    background-image: url("/images/may/dog-may-back.jpg");
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+}
+
+.wash-video {
+    background: rgb(119, 117, 231);
+    border: 5px solid black;
+    padding: 20px;
+}
+
+.disco-may {
+    background-image: url("/images/may/disco.gif");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dance-text {
+    background: rgb(119, 117, 231);
+    color: rgb(255, 255, 255);
+    border: 5px solid lightcoral;
+    text-align: center;
+    font-size: 7em;
+    font-weight:500;
+    border-radius: 0.2em;
+}
+.petTextMay {
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 90%;
+    padding:0.6em;
+    border: 10px solid black;
+    margin: auto;
+    background: rgb(222, 223, 223);
+
+}
+
+
+
+/* calendar */
+.may-calendar {
+    border-top: 5px solid green;
+    background-image: url("/images/may/sunny-back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.april-next {
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    font-weight: bolder;
+    text-shadow: 2px 2px lightcoral;
+}
+
+.march-Title {
+    margin: auto;
+    font-size: 10em;
+    font-weight: 500;
+    color: paleturquoise;
+    text-shadow: 2px 2px lightcoral;
+}
+.april {
+    color: paleturquoise;
+    font-size: 1.2em;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+.marchbday {
+    color: white;
+    background: #51cf81 !important;
+}
+
+/* Pet */
+.pet-april-back {
+    border-top: 5px solid red;
+    background-image: url("https://image.freepik.com/free-vector/chicken-pattern-background_1096-423.jpg");
+    background-position: center;
+}
+.hen-april {
+    height: 70vh;
+    border: 10px solid lightcoral;
+}
+.aprilPet {
+    font-size: 6em;
+    color: rgb(229, 255, 0);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    width: 90%;
+    padding:0.3em;
+    border: 10px solid rgb(255, 0, 0);
+    margin: auto;
+    background: rgb(222, 223, 223);
+}
+.chicken-text {
+    font-size: 4.5em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 90%;
+    padding:0.6em;
+    border: 10px solid rgb(255, 0, 0);
+    margin: auto;
+    background: rgb(222, 223, 223);
+}
+.event {
+    height: 100%;
+    width: 100%;
+    border: 5px solid lightcoral;
+}
+.marchSTD {
+    background: paleturquoise;
+    border-top: 3px solid lightcoral;
+}
+.std {
+    width: 60%;
+    font-size: 7em;
+    border: 2px solid black;
+    color: white;
+    background: #51cf81 !important;
+}
+
+/* dan */
+.danPictureMarch {
+    padding: 0.5em;
+    background:  #36c73d;
+    height: 75vh;
+    border: 5px solid black;
+    margin: auto;
+}
+.danTitle {
+    width: 85%;
+}
+.danText {
+    text-align: center;
+    font-weight: 550;
+    font-size: 1.4em;
+    padding: 0.4em;
+    border-radius: 0.4em;
+    color: black;
+    border: 5px solid #00e9ca;
+    background: #36c73d;
+}
+.laborMarch {
+    background-image: url('/images/march/laborBack.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid green;
+    border-top: 5px solid green;
+}
